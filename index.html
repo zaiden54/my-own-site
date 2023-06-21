@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Портфолио</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="./img/photo_5229022722267401842_y.jpg" alt="My photo" />
+      <p class="name">Денис Зайнагабдинов</p>
+      <ul class="menu">
+        <li><a href="#story-container">История</a></li>
+        <li><a href="#education-container">Обучение</a></li>
+        <li><a href="#hobbies-container">Хобби</a></li>
+        <li><a href="#contact-container">Связаться со мной</a></li>
+        <li><a href="#social-media-container">Социальные сети</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="story-container" id="story-container">
+        <img
+          src="./img/dostoprimechatelnosti-magnitogorska.jpg"
+          alt="Magnitogorsk"
+        />
+        <div class="story">
+          <h1>Родной город</h1>
+          <p>
+            Я родился в небольшом провинциальном городе Магнитогорск. Находится
+            он в Челябинской области, что в принципе уже много о нём говорит.
+            Любая карьера в городе связана либо с заводом, либо с бизнесом.
+          </p>
+          <p>
+            Я же со школы учился программировать и всегда хотел связать с этим
+            хобби свою жизнь. Тогда в 2020 году я поступил в Москву и продолжил
+            обучаться разработке.
+          </p>
+        </div>
+      </div>
+
+      <div class="education-container" id="education-container">
+        <div class="education-place">
+          <div class="education-logo">
+            <img src="./img/logo_EXTRA_VERT.png" alt="Logo of RANEPA" />
+          </div>
+          <div class="education-info">
+            <h2>РАНХиГС &mdash; Прикладная информатика в экономике, 3 курс</h2>
+            <ul>
+              <li>Проектирование информационных систем (IDEF-0)</li>
+              <li>Объектно-ориентированное программирование</li>
+              <li>Python</li>
+              <li>Postgre SQL</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="education-place">
+          <div class="education-logo">
+            <img src="./img/Elbrus-bootcamp-RU0.75x.png" alt="Logo of Elbrus" />
+          </div>
+          <div class="education-info">
+            <h2>Fullstack Javascript</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Дальше &ndash; больше</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="hobbies-container" id="hobbies-container">
+        <h1>Мои хобби</h1>
+        <div class="hobbies-gallery">
+          <div class="hobby-card">
+            <div class="hobby-image-container">
+              <img src="./img/Амкал_лого.svg.png" alt="Amkal logo" />
+              <img
+                src="./img/mmg_logo_20210325-133142.webp"
+                alt="Metallurg logo"
+              />
+            </div>
+            <p>
+              С детсва болею за ХК "Металлург Магнитогорск". Не пропускаю
+              возможности посетить матч команды в Москве. После переезда начал
+              болеть за медийный ФК "Амкал".
+            </p>
+          </div>
+
+          <div class="hobby-card">
+            <div class="hobby-image-container">
+              <img src="./img/Star_Wars_Logo.svg.png" alt="Star Wars logo" />
+            </div>
+            <p>
+              Пересмотрел фильмы этой киновселенной примерно 10 раз. Мечтаю, что
+              когда-нибудь человек изобретет световой меч и гипер-бросок.
+            </p>
+          </div>
+
+          <div class="hobby-card">
+            <div class="hobby-image-container">
+              <img
+                src="./img/minecraft_logo_icon_168974.png"
+                alt="Minecraft logo"
+              />
+            </div>
+            <p>
+              Последние 1.5 года слежу за сериалом в Minecraft. До сих пор
+              удивляюсь, на что способны программисты даже в такой, казалось бы,
+              простой игре.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-container" id="contact-container">
+        <h1>Напиши мне сообщение</h1>
+        <form action="./greetings.html">
+          <label for="name">Введите свое имя:</label>
+          <input type="text" id="name" placeholder="Имя" />
+          <label for="phone">Введите свой телефон:</label>
+          <small>Формат:123-456-7890</small>
+          <input
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            id="phone"
+            placeholder="Телефон"
+          />
+          <label for="message">Что вы хотите мне сообщить?</label>
+          <input type="text" id="message" placeholder="Сообщение" />
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+
+      <div class="social-media-container" id="social-media-container">
+        <h1>Социальные сети</h1>
+        <a href="https://t.me/zaiden53" target="_blank">
+          <img src="./img/free-icon-telegram-3670070.png" alt="Telegram" />
+        </a>
+        <a href="https://vk.com/zaiden54" target="_blank">
+          <img src="./img/free-icon-vkontakte-4494517.png" alt="VK" />
+        </a>
+        <a href="https://instagram.com/_zaiden" target="_blank">
+          <img src="./img/free-icon-instagram-4494488.png" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

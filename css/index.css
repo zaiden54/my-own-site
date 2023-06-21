@@ -1,0 +1,264 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 5px solid #967e76;
+}
+
+.sidebar p {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar a:link {
+  font-size: 25px;
+  color: #967e76;
+  text-decoration: none;
+}
+
+.sidebar a:visited {
+  text-decoration: none;
+  color: #967e76;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin-left: 300px;
+}
+
+.story-container {
+  position: relative;
+  /* background-image: url('../img/dostoprimechatelnosti-magnitogorska.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.story-container img {
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+}
+
+.story {
+  position: absolute;
+  top: 30vh;
+  left: 50vh;
+
+  border: 3px solid #967e76;
+  border-radius: 30px;
+  background: #eee3cb;
+  box-shadow: 0 0 40px black;
+
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 50%;
+}
+
+.story p {
+  margin: 10px auto;
+  width: 80%;
+  font-size: 25px;
+  text-align: justify;
+  color: #20262e;
+}
+
+.story h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.education-container {
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-place {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.education-logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+
+  border-radius: 50%;
+  border: 1px solid #967e76;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-logo img {
+  width: 100px;
+}
+
+.education-info {
+  font-size: 25px;
+}
+
+.hobbies-container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.hobbies-container img {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  object-fit: contain;
+  border: 1px solid #967e76;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.hobbies-container h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.hobbies-gallery {
+  margin: 0 auto;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hobby-card {
+  flex-direction: column;
+  border-radius: 50px;
+  border: 3px solid #967e76;
+  background-color: #eee3cb;
+  width: 30%;
+  height: 80%;
+}
+
+.hobby-card p {
+  padding: 30px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.hobby-image-container {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 100%;
+  height: 80vh;
+  padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container h1 {
+  text-align: center;
+}
+
+.contact-container form {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.contact-container form label {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-container form small {
+  display: block;
+}
+
+.contact-container input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 50px;
+  border: 3px solid #967e76;
+  border-radius: 30px;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.contact-container input::placeholder {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.contact-container input:focus {
+  border: 3px solid #967e76;
+}
+
+.contact-container button {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 70px;
+  border-radius: 40px;
+  border: 3px solid #967e76;
+  background-color: #eee3cb;
+  font-size: 30px;
+}
+
+.social-media-container {
+  background-color: #9babb8;
+  padding: 20px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.social-media-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
